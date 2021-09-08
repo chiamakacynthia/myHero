@@ -1,11 +1,18 @@
 import "./App.css";
 import React from "react";
-import HeroSection from "./mycomponents.js/HeroSection";
-import Footer from "./mycomponents.js/Footer";
-import HeaderBar from "./mycomponents.js/HeaderBar";
+import HeroSection from "./Hero/HeroSection";
+import Footer from "./Hero/Footer";
+import HeaderBar from "./Hero/HeaderBar";
+
+// import HeaderNav from "./vercel/HeaderNav";
+// import MyGradient from "./vercel/MyGradient";
+
 const App = () => {
   return (
     <div>
+      {/* <HeaderNav />
+      <MyGradient /> */}
+
       <HeaderBar />
       <HeroSection />
       <Footer />
